@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.conteiner{
+    width: 95%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex_colors{
+    text-align: center;
+}
+
+.hex_colors h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    animation: changes 5s infinite alternate
+}
+
+.hex_colors h2{
+    font-size: 32px;
+    text-transform: lowercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+@keyframes changes{
+    0%{
+        color:gold
+    }
+    20%{
+        color: orangered;
+    }
+    40%{
+        color: red;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: green;
+    }
+    100%{
+        color: greenyellow;
+    }
+}
